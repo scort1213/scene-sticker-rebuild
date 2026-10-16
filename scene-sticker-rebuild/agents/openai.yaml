@@ -1,0 +1,6 @@
+interface:
+  display_name: "场景贴纸拆分"
+  short_description: "把插画场景拆成分层 PSD：只留建筑外壳的底板＋每个角色和物件一张补全的完整贴纸，按原位叠放可复原原图（Windows / macOS）"
+  default_prompt: "使用 $scene-sticker-rebuild，把我提供的插画拆成分层 PSD（底板＋完整贴纸）。先问我成品尺寸，再列出元素清单给我确认。"
+policy:
+  allow_implicit_invocation: true

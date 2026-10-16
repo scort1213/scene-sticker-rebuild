@@ -1,0 +1,9 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+dist/
+.venv/
+scene-sticker-rebuild/projects/*
+!scene-sticker-rebuild/projects/.gitkeep
+scene-sticker-rebuild/models/*
+!scene-sticker-rebuild/models/.gitkeep

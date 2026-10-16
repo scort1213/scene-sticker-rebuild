@@ -1,0 +1,8 @@
+pillow
+numpy
+opencv-python-headless
+scipy
+torch
+torchvision
+# SAM 2.1 (Meta): pip install "git+https://github.com/facebookresearch/sam2.git"
+psd-tools
