@@ -149,7 +149,12 @@ packaging/macos/              macOS 安装说明和 install.command
 packaging/windows/            Windows 安装说明和 install.bat
 build_release.py              生成两个发布包：python3 build_release.py → dist/
 VERSION                       版本号
+LICENSE                       MIT 许可证
 ```
+
+## 许可证
+
+本仓库代码和文档以 [MIT 许可证](LICENSE) 发布。第三方组件按各自的许可证使用（见下）。
 
 ## 第三方组件
 

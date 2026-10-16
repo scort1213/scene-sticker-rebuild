@@ -44,6 +44,7 @@ def build(platform: str, launcher: str):
         add(z, ROOT / "packaging" / platform / "INSTALL_FOR_CODEX.md", "INSTALL_FOR_CODEX.md")
         add(z, ROOT / "packaging" / platform / launcher, launcher, executable=launcher.endswith(".command"))
         add(z, ROOT / "VERSION", "VERSION")
+        add(z, ROOT / "LICENSE", "LICENSE")
         for src, arc in skill_files():
             add(z, src, arc, executable=src.suffix == ".py")
     names = zipfile.ZipFile(out).namelist()
